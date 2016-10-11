@@ -20,7 +20,7 @@ interface attempts to be a ruby-ish analogue of pybel.}
   spec.require_paths = ["lib"]
 
   [
-    ["openbabel", "= 2.3.1.9"],
+    ["openbabel", "= 2.3.2.2"],
     ["andand", "~> 1.3.3"],
     ["mini_magick", "~> 3.6.0"]
   ].each do |args|
@@ -28,8 +28,8 @@ interface attempts to be a ruby-ish analogue of pybel.}
   end
   [
     ["bundler", "~> 1.3"],
-    ["rspec", "~> 2.13.0"], 
-    ["rdoc", "~> 3.12"], 
+    ["rspec", "~> 2.13.0"],
+    ["rdoc", "~> 3.12"],
     ["simplecov"],
     ["rake"]
   ].each do |args|
